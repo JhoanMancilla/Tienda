@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logotipo{
+    width: 100px;
+    height: 80px;
+}
+
+.contenedor{
+    width: 100%;
+}
+
+header .contenedor{
+    background: rgb(255, 57, 57, 0.4);
+}
+
+header .menu{
+    width: 90%;
+    margin: auto;
+}
+
+.menu{
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+header nav a:hover{
+    color: aliceblue;
+}
+
+.barraprog{
+    margin: auto;
+    width: 50%;
+}
+
+.titulo{
+    width: 100%;
+    text-align: center;
+}
+
+.tareas{
+    display: flex;
+    justify-content: space-around;
+}

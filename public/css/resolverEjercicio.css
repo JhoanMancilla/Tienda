@@ -1,0 +1,130 @@
+.navbar {
+	background: #93C1BE;
+    position: sticky;
+    top: 0;
+}
+
+.navbar .seccionMenu {
+	display: inline-block;
+	padding: 20px;
+	text-align: center;
+	color: #000;
+	transition: .3s ease-out all;
+}
+
+.navbar .seccionMenu:hover {
+    transform: translateY(18px);
+	background: #1D2F3D;
+	color: #fff;
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+
+header .menu{
+    width: 90%;
+    margin: auto;
+}
+
+header nav .seccionMenu{
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.logotipo{
+    width: 100px;
+    height: 80px;
+}
+
+
+
+.center{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.inputs{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(120deg, #93C1BE, #BAF7F4);
+    border: solid 1px #919191;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.inputsHijos{
+    text-align: center;
+    width: 40%;
+    height: 10%;
+    border: solid 2px #93C1BE;
+    margin-bottom: 25px;
+}
+
+.inputsigma{
+    width: 65%;
+    height: 50%;
+    border: solid 2px #93C1BE;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+.botonhijo{
+    margin-right: 20px;
+    height: 50%;
+    border-radius: 15px;
+    background-color: #93C1BE;
+    border: solid 1px #ffffff;
+    color: #fff;
+}
+
+.botonhijo:hover{
+    background-color: #ffffff;
+    border: solid 1px #93C1BE;
+    color: #93C1BE;
+}
+
+.botonhijo:active{
+    transform: scale(.9);
+}
+
+.botonChomsky{
+    margin-right: 20px;
+    height: 50%;
+    width: 250px;
+    border-radius: 15px;
+    background-color: #93C1BE;
+    border: solid 1px #ffffff;
+    color: #fff;
+}
+
+.botonChomsky:hover{
+    background-color: #ffffff;
+    border: solid 1px #93C1BE;
+    color: #93C1BE;
+}
+
+.botonChomsky:active{
+    transform: scale(.9);
+}
